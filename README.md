@@ -1,2 +1,0 @@
-# JOO
-SCRIPT BOT BLUM

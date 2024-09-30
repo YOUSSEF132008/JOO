@@ -543,7 +543,7 @@ class Tomarket:
                         self.print_timestamp(
                             f"{Fore.CYAN + Style.BRIGHT}[ {first_name} ]{Style.RESET_ALL}"
                             f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
-                            f"{Fore.RED + Style.BRIGHT}[ No Chance To Start Game ✅]{Style.RESET_ALL}"
+                            f"{Fore.RED + Style.BRIGHT}[ No Chance To Start Game ❎]{Style.RESET_ALL}"
                         )
                         break
             except (JSONDecodeError, RequestException) as e:

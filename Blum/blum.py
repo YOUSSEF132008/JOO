@@ -68,9 +68,7 @@ print(f"""
 \33[0;43m  Developer channel : https://t.me/kingelnet 👻 \033[0;92m """)
 time.sleep(3)
 
-os.system('clear')
-else:
-
+os.system('clear') 
 class Config:
     def __init__(self, auto_task, auto_game, auto_claim, low, high):
         self.auto_task = auto_task

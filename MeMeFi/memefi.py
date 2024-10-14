@@ -35,6 +35,7 @@ print(f"""
 \033[1;37m
 \33[0;43m  Developer channel : https://t.me/kingelnet 👻 \033[0;92m """)
 time.sleep(3)
+os.system('clear')
 url = "https://api-gw-tg.memefi.club/graphql"
 def load_proxies():
     with open('proxy.txt', 'r') as file:
